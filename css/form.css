@@ -1,0 +1,32 @@
+.panel-form {
+    margin: 32px 0 0 0;
+}
+
+.panel-form .title {
+    font-size: 32px;
+    color: #ef7247;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.field {
+    margin: 0 0 16px 0;
+}
+
+.field label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+.field .field-input {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.button-place {
+    text-align: center;
+}

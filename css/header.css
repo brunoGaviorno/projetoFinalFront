@@ -1,0 +1,57 @@
+.header {
+    background: url(../img/destaque.jpeg) no-repeat;
+    background-size: cover;
+    padding: 32px 0 32px 0;
+}
+
+.header .menu {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.header .menu li {
+    display: inline-block;
+}
+
+.header .menu a {
+    background-color: #00000031;
+    transition: background-color 0.5s;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFEFE;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.header .menu a:hover {
+    background-color: #48A3A6;
+}
+
+.header .infos {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px 0 30px 0;
+}
+
+.header .info-principal {
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+.header .infos .title {
+    font-size: 3em;
+}
+
+.header .infos .subtitle {
+    font-size: 2.5em;
+    color: #64ff64;
+    margin: 8px 0 0 0;
+}
+
+@media(min-width: 650px) {
+    .header .infos {
+        font-size: 28px;
+    }
+}
